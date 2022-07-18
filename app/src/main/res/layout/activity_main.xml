@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dial2"
+        android:layout_width="122dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#F3EFEF"
+        android:text="2"
+        android:textColor="#040101"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dial1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toEndOf="@+id/dial1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Call"
+        android:layout_width="181dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="76dp"
+        android:text="Call"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/dial4"
+        app:layout_constraintEnd_toEndOf="@+id/Add"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="190dp"
+        android:layout_height="81dp"
+        android:background="#E61414"
+        android:text="Add"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <Button
+        android:id="@+id/dial7"
+        android:layout_width="105dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#F1F1F1"
+        android:text="7"
+        android:textColor="#040101"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/dial4"
+        app:layout_constraintEnd_toStartOf="@+id/dial8"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Call"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/dial8"
+        android:layout_width="117dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="93dp"
+        android:backgroundTint="#FFFDFD"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/dial4"
+        app:layout_constraintEnd_toStartOf="@+id/dial9"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Call"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/dial9"
+        android:layout_width="99dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="83dp"
+        android:backgroundTint="#F8EFEF"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/dial3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Add"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dial4"
+        android:layout_width="104dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FFFBFB"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <Button
+        android:id="@+id/dial5"
+        android:layout_width="121dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="#FBFBFB"
+        android:text="5"
+        android:textColor="#040202"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/dial2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dial3"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toEndOf="@+id/dial4"
+        app:layout_constraintTop_toBottomOf="@+id/dial8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dial1"
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#F8F8F8"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dial4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dial3"
+        android:layout_width="112dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#F3F3F3"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:iconTint="#090404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/dial2"
+        app:layout_constraintTop_toBottomOf="@+id/dial5"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/dial0"
+        android:layout_width="226dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#FAFAFA"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dial1"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/dialdel"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="del"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dial0"
+        app:layout_constraintTop_toBottomOf="@+id/dial3" />
+
+    <Button
+        android:id="@+id/dial6"
+        android:layout_width="112dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#F8F8F8"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:cornerRadius="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="354dp"
+        android:layout_height="148dp"
+        android:background="#F1EAEA"
+        android:backgroundTint="#F1EAEA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
